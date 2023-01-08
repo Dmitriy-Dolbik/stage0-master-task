@@ -2,11 +2,6 @@ package com.epam.langSyntax;
 
 public class NumberReverter {
 
-    public static void main(String[] args) {
-        NumberReverter nr = new NumberReverter();
-        nr.revert(536);
-
-    }
     public void revert(int number) {
         int reversedNumber = 0;
         while (number != 0 ){
@@ -15,5 +10,4 @@ public class NumberReverter {
         }
         System.out.println(reversedNumber);
     }
-
 }
